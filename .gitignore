@@ -1,52 +1,31 @@
-# Prerequisites
-*.d
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.REP 
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+#useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
 
-# Linker output
-*.ilk
-*.map
-*.exp
+#History
+History
 
-# Precompiled Headers
-*.gch
-*.pch
+#Exports, but not manual ones
+exports/*
+!exports/manual
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
